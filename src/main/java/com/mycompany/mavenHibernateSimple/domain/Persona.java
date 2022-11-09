@@ -5,9 +5,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "persona")
 
-public class Persona{   
-    private static final long serialVersionUID = 1L;
-    
+public class Persona{      
     @Column(name="id_persona")
     @Id
     private int idPersona;
